@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TemperatureConverter</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container first mt-5 align-self-center">
+        <div class="row justify-content-around text-center">
+            <div class="col-lg-6 box1">
+                
+                <p class="h4" style="color: #017B82; margin-top: 30px;"><b>Enter Temperature</b></p>
+                <form >
+                    <label for="degreeInput" style="color:#017B82 ;" class="py-sm-2">Degree</label>
+                    <br>
+                    <div class="input">
+                       <input type="number" class="form-c" id="inputDegree" name="inputDegree" placeholder="Enter Degree" value="" />
+                     </div>
+                </form>
+                <br>
+                <button onclick="convertToFahrenheit()" class="btn rounded-pill" style="background-color: #017B82; text-align: center; color: white;"  >
+                    Celsius to Fahrenheit
+                </button>
+                <br>
+                <br>
+                <button onclick="convertToCelsius()" class="btn rounded-pill" style="background-color: #017B82; text-align: center; color: white;"  >
+                    Fahrenheit to Celsius
+                </button>
+                <br>
+                <br>
+                <button onclick="resetDegree()" class="btn rounded-pill" style="background-color: #017B82; text-align: center; color: white;"  >
+                    Reset
+                </button>
+
+            </div>
+            <div class="col-lg-6 box2">
+                <h1 style="color: white; text-align: center; margin-top: 30%;" ><b>RESULT : <span id="outputDegree"></span></b></h1>
+                </div>
+        </div>
+    </div>
+    <style>
+        body {
+    height: max-content;
+    background-color: whitesmoke;
+  }
+    </style>
+</body>
+</html>
