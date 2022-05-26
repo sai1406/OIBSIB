@@ -1,0 +1,98 @@
+.firstclass{
+
+    height: 100%;
+    width: 100%;
+    background-color: #2F0E1F;
+}
+#name {
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    color: #F9FBF8;
+    -moz-text-size-adjust: auto;
+    font-size: 40px;
+}
+.headclass{
+    padding: 1em;
+}
+.tableclass {
+    padding:4em;
+
+}
+#cdplayer{
+    margin : 10px;
+}
+.buttonclass{
+    color: #F9FBF8;
+    background-color: #E2481E;
+    padding: 15px 32px;
+    border-radius: 40px;
+    font-size: 13px;
+    text-align: center;
+    border: white;
+}
+.container{
+    
+    background-color:#FEFFFE;
+    position: relative;
+    
+}
+.col-lg-4{
+    padding: 1em;
+    text-align: center;
+    color: #623A48;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+    font-size: large;
+}
+.new {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A8AEC0;
+    font-size: smaller;
+    
+}
+#down{
+    background-color: #e0ab40;
+    color: #F9FBF8;
+    text-align: center;
+}
+.customDiv{
+    min-height:380px;
+    background-color: #F5F5F6;
+    text-align:center;
+    font-size:large;
+}
+.none{
+    color: #e0ab40;
+    font-size: medium;
+}
+.dark{
+    color: #9394AE;
+
+}
+.light{
+    color: #AEB4C4;
+}
+#new2 {
+    min-height:200px;
+    background-color: white;
+    padding: 4em;
+}
+.container4{
+    min-height: 600px;
+    background-color: #E3481F;
+}
+.container5{
+    min-height: 200px;
+    background-color:#2F0E1F;
+    text-align: center;
+}
+.button{
+    color: #F9FBF8;
+    background-color: #E2481E;
+    padding: 15px 32px;
+    border-radius: 40px;
+    font-size: 13px;
+    text-align: center;
+    border: white;
+}
+
